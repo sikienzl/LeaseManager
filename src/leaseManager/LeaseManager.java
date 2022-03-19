@@ -45,8 +45,17 @@ public class LeaseManager {
         //leaseManagerFrame.pack();
         leaseManagerFrame.setLocationRelativeTo(null);
         leaseManagerFrame.setVisible(true);*/
+        Pachtdauer pachtdauer = new Pachtdauer();
 
+        System.out.println(pachtdauer.getBefristungText());
 
+        Pachtdauer pachtdauer1 = new Pachtdauer("19.03.2022");
+
+        System.out.println(pachtdauer1.getBefristungText());
+
+        Pachtdauer pachtdauer2 = new Pachtdauer(2, 9);
+
+        System.out.println(pachtdauer2.getBefristungText());
 
     }
 
